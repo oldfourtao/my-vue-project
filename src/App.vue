@@ -3,7 +3,8 @@
     <!-- <img src="./assets/logo.png"> -->
     <!-- <div class="title">双色球随机买</div> -->
     <!-- <DoubleChromospHere></DoubleChromospHere> -->
-    <Header></Header>
+    <!-- <Header></Header> -->
+    <IndexLayout></IndexLayout>
     <router-view />
   </div>
 </template>
@@ -11,10 +12,12 @@
 <script>
 import HelloWorld from "./components/HelloWorld";
 import DoubleChromospHere from "./components/DoubleChromospHere";
-import Header from "./components/layout/Header";
+// import Header from "./components/layout/Header";
+import IndexLayout from "./components/layout/IndexLayout";
+
 export default {
   name: "App",
-  components: { HelloWorld, DoubleChromospHere,Header },
+  components: { HelloWorld, DoubleChromospHere,Header,IndexLayout},
 };
 </script>
 
