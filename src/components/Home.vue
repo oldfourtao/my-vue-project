@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>home vue</p>
+    <p class="red">home vue</p>
   </div>
 </template>
 
@@ -8,5 +8,5 @@
 export default {};
 </script>
 
-<style scoped>
+<style >
 </style>

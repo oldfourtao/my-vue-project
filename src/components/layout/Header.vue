@@ -1,8 +1,7 @@
 <template>
   <el-menu
-    
     router
-    class="el-menu-demo"
+    class="el-menu-demo h800"
     mode="horizontal"
     @select="handleSelect"
   >

@@ -56,11 +56,20 @@ exports.cssLoaders = function (options) {
 
   // https://vue-loader.vuejs.org/en/configurations/extract-css.html
   return {
-    css: generateLoaders(),
+    // css: generateLoaders(),
+  
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass'),
+    //引入全局scss文件
+    scss: generateLoaders('sass').concat(
+      {
+        loader: 'sass-resources-loader',
+        options: {
+          resources: path.resolve(__dirname, '../src/assets/style/index.scss')  // 这里是你的全局样式文件
+        }
+      }
+    ),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }

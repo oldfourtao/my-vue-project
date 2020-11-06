@@ -5,7 +5,7 @@
     <!-- <DoubleChromospHere></DoubleChromospHere> -->
     <!-- <Header></Header> -->
     <IndexLayout></IndexLayout>
-    <router-view />
+    
   </div>
 </template>
 
@@ -17,12 +17,11 @@ import IndexLayout from "./components/layout/IndexLayout";
 
 export default {
   name: "App",
-  components: { HelloWorld, DoubleChromospHere,Header,IndexLayout},
+  components: { HelloWorld, DoubleChromospHere,IndexLayout},
 };
 </script>
 
-<style>
-@import './assets/style/index.scss';
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
