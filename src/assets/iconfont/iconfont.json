@@ -1,0 +1,121 @@
+{
+  "id": "2197088",
+  "name": "vue-demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "学习vue",
+  "glyphs": [
+    {
+      "icon_id": "18092044",
+      "name": "call",
+      "font_class": "call",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "18092045",
+      "name": "calendar",
+      "font_class": "calendar",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "18092046",
+      "name": "card",
+      "font_class": "card",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "18092050",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "18092053",
+      "name": "earth",
+      "font_class": "earth",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "18092054",
+      "name": "lightning",
+      "font_class": "lightning",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "18092055",
+      "name": "file folder",
+      "font_class": "filefolder",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "18092057",
+      "name": "love",
+      "font_class": "love",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "18092058",
+      "name": "mailbox",
+      "font_class": "mailbox",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "18092060",
+      "name": "envelope",
+      "font_class": "envelope",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "18092061",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "18092062",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "18092063",
+      "name": "pie chart",
+      "font_class": "Piechart",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "18092064",
+      "name": "music",
+      "font_class": "music",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "18092067",
+      "name": "image",
+      "font_class": "image",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "18092131",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    }
+  ]
+}

@@ -7,9 +7,7 @@
         </div>
         <div class="flex-1">
         <router-view></router-view>
-        </div>
-
-        
+        </div>  
     </div>
     <Footer class="h100 lh100"></Footer>
     
