@@ -1,6 +1,6 @@
 <template>
 <div class="flex layout h-100">
-    <Header class="h800"></Header>
+    <Header class="h100"></Header>
     <div class="flex-1 flex">
         <div class="w200">
             <Slider></Slider>

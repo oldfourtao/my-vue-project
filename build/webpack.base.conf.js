@@ -76,19 +76,19 @@ module.exports = {
         }
       },
 
-      // {
-      //   test: /\\\\\\\\.css$/,
-      //   loader: "style!css"
-      // },
+      {
+        test: /\\\\\\\\.css$/,
+        loader: "style!css"
+      },
       
       // {
       //   test: /\\\\\\\\.scss$/,
       //   loader: "style!sass"
       // },
-       {
-        test: /\.sass$/,
-        loaders: ["style", "css", "sass"]
-      },
+      //  {
+      //   test: /\.sass$/,
+      //   loaders: ["style", "css", "sass"]
+      // },
       {
         test: /\\\\\\\\.(eot|woff|woff2|ttf)([\\\\\\\\?]?.*)$/,
         loader: "file"
