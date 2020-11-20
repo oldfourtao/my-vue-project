@@ -2,6 +2,7 @@
   <el-menu
     router
     class="el-menu-demo"
+    default-active="/home"
     mode="horizontal"
     @select="handleSelect"
   >

@@ -9,14 +9,19 @@ import './assets/style/index.scss'//全局scss样式
 //aliyun icon 
 import './assets/iconfont/iconfont.js'
 import './assets/iconfont/iconfont.css'
+//import Vue from 'vue'
+import store from './store'
 
 Vue.use(ElementUi)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
+

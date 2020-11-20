@@ -1,23 +1,14 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <div class="title">双色球随机买</div> -->
-    <!-- <DoubleChromospHere></DoubleChromospHere> -->
-    <!-- <Header></Header> -->
     <IndexLayout></IndexLayout>
-    
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-import DoubleChromospHere from "./components/DoubleChromospHere";
-// import Header from "./components/layout/Header";
-import IndexLayout from "./components/layout/IndexLayout";
-
+import IndexLayout from "./components/layout/IndexLayout"
 export default {
   name: "App",
-  components: { HelloWorld, DoubleChromospHere,IndexLayout},
+  components: {IndexLayout},
 };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-row class="tac">
+    <!-- <el-row class="tac">
       <el-col :span="12">
         <h5>默认颜色</h5>
         <el-menu
@@ -41,7 +41,7 @@
           </el-menu-item>
         </el-menu>
       </el-col>
-    </el-row>
+    </el-row> -->
   </div>
 </template>
 
