@@ -11,9 +11,11 @@ import './assets/iconfont/iconfont.js'
 import './assets/iconfont/iconfont.css'
 //import Vue from 'vue'
 import store from './store'
+import axios from 'vue-axios'
 
 Vue.use(ElementUi)
-
+Vue.prototype.$axios = axios
+Vue.prototype.qs = qs;
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
